@@ -18,8 +18,7 @@ function woot()
 
   console.log(b);
   
-  // 以下注释不注释  结果截然不同  留待疑惑
-  // @todo 
+  // 以下注释不注释  结果截然不同  js 变量作用域问题
   var b  = 7;
 
 }
